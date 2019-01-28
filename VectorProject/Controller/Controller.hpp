@@ -10,10 +10,15 @@
 #define Controller_hpp
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Controller
 {
+private:
+    vector<int> numList = {5, 4, 6, 4, 7};
+    vector<string> wordList = {"cat", "dog", "rat", "bird"};
+    string words [4];
 public:
     void start();
 };
